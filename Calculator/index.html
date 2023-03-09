@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <span>CALCULATOR</span>
+                <div class="screen">
+           
+                    <input type="text" id="result" disabled>
+                </div>
+                <div class="buttons">
+                    <button class="operator" onclick="clearScreen()">C</button>
+                    <button class="operator" onclick="backspace()">&larr;</button>
+                    <button class="operator" onclick="insert('/')">&#247;</button>
+                    <button class="operator" onclick="insert('*')">&times;</button>
+                    <button onclick="insert('7')">7</button>
+                    <button onclick="insert('8')">8</button>
+                    <button onclick="insert('9')">9</button>
+                    <button class="operator" onclick="insert('-')">-</button>
+                    <button onclick="insert('4')">4</button>
+                    <button onclick="insert('5')">5</button>
+                    <button onclick="insert('6')">6</button>
+                    <button class="operator" onclick="insert('+')">+</button>
+                    <button onclick="insert('1')">1</button>
+                    <button onclick="insert('2')">2</button>
+                    <button onclick="insert('3')">3</button>
+                    <button onclick="insert('.')">.</button>
+                    <button class="zero" onclick="insert('0')">0</button>
+                    <button class="operator" onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>  
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+    </html>
+
+
